@@ -1,5 +1,6 @@
 //Declarative
 pipeline {
+	agent any
 	stages {
 		stage('Build') {
 			steps {
@@ -27,7 +28,7 @@ pipeline {
 		failure {
 					echo 'I run on failure'
 		}
-		always {
+		changed {
 					echo 'I run when the build status changes'
 		}
 	}

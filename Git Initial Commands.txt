@@ -1,0 +1,97 @@
+D:\>cd jenkins-devops-microservice
+
+D:\jenkins-devops-microservice>git init
+Initialized empty Git repository in D:/jenkins-devops-microservice/.git/
+
+D:\jenkins-devops-microservice>git add *
+warning: LF will be replaced by CRLF in Dockerfile.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Jenkinsfile.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/in28minutes/microservices/currencyexchangeservice/CurrencyExchangeServiceApplicationH2.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/in28minutes/microservices/currencyexchangeservice/HelloWorld.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/in28minutes/microservices/currencyexchangeservice/resource/CurrencyExchangeController.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/in28minutes/microservices/currencyexchangeservice/resource/ExchangeValue.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/in28minutes/microservices/currencyexchangeservice/resource/ExchangeValueRepository.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/in28minutes/microservices/currencyexchangeservice/util/environment/EnvironmentConfigurationLogger.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/in28minutes/microservices/currencyexchangeservice/util/environment/InstanceInformationService.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/application.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/data.sql.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/in28minutes/microservices/currencyexchangeservice/CurrencyExchangeServiceApplicationTests.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/in28minutes/microservices/currencyexchangeservice/cucumber/CucumberSpringContextConfiguration.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/in28minutes/microservices/currencyexchangeservice/cucumber/CurrencyExchangeSteps.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/in28minutes/microservices/currencyexchangeservice/cucumber/HelloWorldSteps.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/in28minutes/microservices/currencyexchangeservice/cucumber/RunCucumberIntegrationTestCase.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/in28minutes/microservices/currencyexchangeservice/resource/CurrencyExchangeControllerTest.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/resources/cucum.feature.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/resources/currencyexchange.feature.
+The file will have its original line endings in your working directory
+
+D:\jenkins-devops-microservice>git commit -m "First Commit"
+[master (root-commit) f2fecc3] First Commit
+ 20 files changed, 710 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 Jenkinsfile
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/in28minutes/microservices/currencyexchangeservice/CurrencyExchangeServiceApplicationH2.java
+ create mode 100644 src/main/java/com/in28minutes/microservices/currencyexchangeservice/HelloWorld.java
+ create mode 100644 src/main/java/com/in28minutes/microservices/currencyexchangeservice/resource/CurrencyExchangeController.java
+ create mode 100644 src/main/java/com/in28minutes/microservices/currencyexchangeservice/resource/ExchangeValue.java
+ create mode 100644 src/main/java/com/in28minutes/microservices/currencyexchangeservice/resource/ExchangeValueRepository.java
+ create mode 100644 src/main/java/com/in28minutes/microservices/currencyexchangeservice/util/environment/EnvironmentConfigurationLogger.java
+ create mode 100644 src/main/java/com/in28minutes/microservices/currencyexchangeservice/util/environment/InstanceInformationService.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/main/resources/data.sql
+ create mode 100644 src/test/java/com/in28minutes/microservices/currencyexchangeservice/CurrencyExchangeServiceApplicationTests.java
+ create mode 100644 src/test/java/com/in28minutes/microservices/currencyexchangeservice/cucumber/CucumberSpringContextConfiguration.java
+ create mode 100644 src/test/java/com/in28minutes/microservices/currencyexchangeservice/cucumber/CurrencyExchangeSteps.java
+ create mode 100644 src/test/java/com/in28minutes/microservices/currencyexchangeservice/cucumber/HelloWorldSteps.java
+ create mode 100644 src/test/java/com/in28minutes/microservices/currencyexchangeservice/cucumber/RunCucumberIntegrationTestCase.java
+ create mode 100644 src/test/java/com/in28minutes/microservices/currencyexchangeservice/resource/CurrencyExchangeControllerTest.java
+ create mode 100644 src/test/resources/cucum.feature
+ create mode 100644 src/test/resources/currencyexchange.feature
+
+D:\jenkins-devops-microservice>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\jenkins-devops-microservice>git remote add origin "https://github.com/ubalepriya/jenkins-devops-microservice.git"
+
+D:\jenkins-devops-microservice>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ubalepriya/jenkins-devops-microservice.git'
+
+D:\jenkins-devops-microservice>git push -u origin master
+Enumerating objects: 42, done.
+Counting objects: 100% (42/42), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (35/35), done.
+Writing objects: 100% (42/42), 9.96 KiB | 1.11 MiB/s, done.
+Total 42 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/ubalepriya/jenkins-devops-microservice/pull/new/master
+remote:
+To https://github.com/ubalepriya/jenkins-devops-microservice.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+D:\jenkins-devops-microservice>

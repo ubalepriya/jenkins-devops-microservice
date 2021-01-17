@@ -41,7 +41,9 @@ pipeline {
 		}
 		stage('Build Docker Image') {
 					steps {
-						dockerImage = docker.build("ubalepriya/currency-exchange-devops:${env.BUILD_TAG}") 
+						script {
+							dockerImage = docker.build("ubalepriya/currency-exchange-devops:${env.BUILD_TAG}") 
+						}						
 					  }
 		}
 		stage('Push Docker Image') {
